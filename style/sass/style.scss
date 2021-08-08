@@ -1,0 +1,27 @@
+@import 'reset';
+
+/* COLORS */
+$primary-cyan: hsl(180, 66%, 49%);
+$primary-dark-violet: hsl(257, 27%, 26%);
+$secondary-red: hsl(0, 87%, 67%);
+$neutral-gray: hsl(0, 0%, 75%);
+$neutral-grayish-violet: hsl(257, 7%, 63%);
+$neutral-dark-blue: hsl(255, 11%, 22%);
+$neutral-dark-violet: hsl(260, 8%, 14%);
+
+*{
+    box-sizing: border-box;
+}
+
+.dark-mode{
+    background-color: #111;
+    filter: invert(0.95) hue-rotate(180deg);
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+
+    a{
+        color: #3e52a3;
+    }
+}
